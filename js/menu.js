@@ -11,7 +11,7 @@ var DWmenu = [{
 	name:"Deep Eddy's Vodka",
 	price: 20,
 	description: "When You Want to Party Deep",
-	url: "images/deepeddy"
+	url: "images/deepeddy.jpg"
 },{
 	name:"Laphroaig",
 	price: 80,
@@ -65,7 +65,7 @@ DWmenu.forEach(function (item) {
 	                  <header class="card-header">
 	                      <h3>Price</h3>
 	                  </header>
-	                  <p>$ ${item.price}</p>
+	                  <p class="price">$ ${item.price}</p>
 	              </section>
 	          </article>`;
 });
