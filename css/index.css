@@ -1,1 +1,31 @@
 /* This CSS is for styled elements on Home page */
+#middle {
+	width: 100%;
+	height: 45em;
+	background-image: url("../images/indexbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	margin: 0 0;
+}
+#middle #innerbox {
+	background-color: rgba(255, 255, 255, 0.5);
+	margin: 10% 25%;
+	padding: 10% 0;
+	height: auto;
+	text-align: center;
+}
+#middle #bigMenuBtn {
+	background-color: darkgreen;
+	opacity: .8;
+	border: 1px hidden darkgreen;
+	border-radius: 3px;
+	margin: 0;
+	width: 10em;
+	height: 2em;
+	padding: 1.5em;
+}
+#middle a  {
+	text-decoration: none;
+	color: white;
+
+}

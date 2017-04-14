@@ -1,7 +1,6 @@
 /* This CSS is for styled elements common to all pages in webstie */
 #master-wrapper {
-	height: 100%;
-	width: 100%;
+
 }
 /*  Header */
 #logo,
@@ -14,7 +13,7 @@
 }
 #tagline {
 	margin-top: 1px;
-	
+
 }
 /*  Navbar */
 #master-nav {
@@ -22,6 +21,8 @@
 	height: 4em;
 	margin-top: 3%;
 	float: left;
+	position: fixed;
+	top: 0em;
 }
 #master-nav ul {
 	list-style-type: none;
@@ -50,8 +51,7 @@
 
 /*  Footer */
 #master-footer {
-	position: relative;
-	bottom: 0;
+	clear: both;
 	padding: 2%;
 	color: darkgreen;
 }
@@ -72,5 +72,10 @@
 	text-decoration: none;
 }
 #master-footer #copyright {
-
+	clear: both;
+	height: 3em;
+	padding: 1.5em 0 0 0;
+	background-color: rgb(102, 153, 153);
+	text-align: center;
+	color: white;
 }
