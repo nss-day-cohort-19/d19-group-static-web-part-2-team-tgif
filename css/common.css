@@ -4,7 +4,18 @@
 	width: 100%;
 }
 /*  Header */
-
+#logo,
+#tagline {
+	color: #008844;
+	text-align: center;
+}
+#logo {
+	margin-bottom: 1px;
+}
+#tagline {
+	margin-top: 1px;
+	
+}
 /*  Navbar */
 #master-nav {
 	width: 100%;
