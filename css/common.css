@@ -36,8 +36,10 @@ body {
 }
 /*  Navbar */
 #master-nav {
+	font-size: .8em;
+	font-weight: bold;
 	width: 100%;
-	height: 4em;
+	height: 6em;
 	padding-top: 3%;
 	float: left;
 	position: fixed;
@@ -62,7 +64,7 @@ body {
 	display: block;
 	text-decoration: none;
 	text-align: center;
-	color: darkgreen;
+	color: black;
 	opacity: 1;
 	padding: 1em 0;
 	height: 100%;
