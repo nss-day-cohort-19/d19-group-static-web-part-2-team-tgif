@@ -1,4 +1,9 @@
 /* This CSS is for styled elements common to all pages in webstie */
+body {
+	font: 15px/1.65em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+}
+
 #master-wrapper {
 
 }
