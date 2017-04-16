@@ -1,5 +1,7 @@
 /* This CSS is for styled elements on Sign Up page */
-
+#signup-section {
+	margin: 200px 0;
+}
 .signup-form {
 	border: 1px solid black;
 	border-radius: 5px;
