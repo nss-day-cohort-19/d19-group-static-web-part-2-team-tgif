@@ -10,6 +10,7 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
 .innerbox {
   background-color: rgba(255, 255, 255, 0.7);
   position: relative;
@@ -76,4 +77,48 @@
   display: none;
 }
 
+.h1box {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  top: 4em;
+  left: 30%;
+  text-align: center;
+  width: 40%;
+  padding: 2.5%;
+  border: 1px hidden black;
+  border-radius: 5px;
+  margin-bottom: 0.5%;
+}
+.ourTeam {
+  display: block;
+  background-color: gray;
+  opacity: .7;
+  border: 1px white;
+  border-radius: 3px;
+  height: 4em;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 2% 0 1%;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+.hiddenTeam {
+  display: none;
+}
+.h1box:hover .ourTeam {
+  display: none;
+}
+.h1box:hover .hiddenTeam {
+  display: block;
+  background-color: rgba(0, 100, 0, 0.4);
+  border: 1px hidden darkgreen;
+  border-radius: 3px;
+  height: 4em;
+  padding: 2% 0 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  color: white;
+}
 
