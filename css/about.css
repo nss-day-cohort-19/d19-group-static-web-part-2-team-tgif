@@ -26,7 +26,7 @@
 .innerbox {
   background-color: rgba(255, 255, 255, 0.7);
   position: relative;
-  top: 5em;
+  top: 7em;
   left: 1%;
   right: 2%;
   text-align: center;
@@ -94,7 +94,7 @@
   background-color: rgba(255, 255, 255, 0.7);
   clear: both;
   position: relative;
-  top: 4em;
+  top: 7em;
   left: 27.5%;
   text-align: center;
   width: 40%;
@@ -112,7 +112,7 @@
   height: 4em;
   margin-left: 5%;
   margin-right: 5%;
-  padding: 2% 0 1%;
+  padding: .75% 0 .25%;
   overflow: hidden;
   text-align: center;
   color: darkgreen;
@@ -151,6 +151,23 @@
 }
 .aboutFooter {
   clear: both;
-  background-color: white;
+  background-color: rgba(255, 255, 255, .9);
   margin-top: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+footer table {
+  display: inline-table;
+  vertical-align: middle;
+}
+.copyrightAbout {
+  text-align: center;
+  background-color: black;
+  opacity: .8;
+  color: white;
+
 }
