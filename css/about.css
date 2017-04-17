@@ -91,15 +91,16 @@
 }
 
 .h1box {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: darkgray;
+  opacity: .7;
   clear: both;
   position: relative;
   top: 7em;
   left: 27.5%;
   text-align: center;
   width: 40%;
-  padding: 1.5%;
-  border: 1px hidden black;
+  padding: 1% .75%;
+  border: 2px solid white;
   border-radius: 5px;
   margin-bottom: 0.5%;
 }
@@ -126,7 +127,7 @@
 .h1box:hover .hiddenTeam {
   display: block;
   background-color: rgba(0, 100, 0, 0.4);
-  border: 1px hidden darkgreen;
+  border: 1px darkgreen;
   border-radius: 3px;
   height: 4em;
   padding: 2% 0 1%;
