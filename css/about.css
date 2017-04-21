@@ -91,32 +91,32 @@
 }
 
 .h1box {
-  background-color: darkgray;
+  background-color: darkgreen;
   opacity: .7;
   clear: both;
   position: relative;
   top: 7em;
-  left: 27.5%;
+  left: 34.5%;
   text-align: center;
-  width: 40%;
-  padding: 1% .75%;
-  border: 2px solid white;
+  width: 30%;
+  padding: 0;
+  border: 2px hidden white;
   border-radius: 5px;
   margin-bottom: 0.5%;
 }
 .ourTeam {
   display: block;
-  background-color: white;
-/*  opacity: .7;*/
-  border: 1px white;
+  background-color: rgba(0, 100, 0, 0.4);
+  border: 1px darkgreen;
   border-radius: 3px;
   height: 4em;
+  padding: 2% 0 1%;
   margin-left: 5%;
   margin-right: 5%;
-  padding: .75% 0 .25%;
-  overflow: hidden;
   text-align: center;
-  color: darkgreen;
+  color: white;
+  overflow: scroll;
+  vertical-align: middle;
 }
 .hiddenTeam {
   display: none;

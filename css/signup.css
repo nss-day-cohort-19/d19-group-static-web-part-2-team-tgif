@@ -1,20 +1,38 @@
 /* This CSS is for styled elements on Sign Up page */
+.about-body {
+  margin: 0;
+}
+.about-wrapper {
+  width: 100%;
+  background: url("../images/aboutBackground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+}
 #signup-section {
-	margin: 200px 0;
+	margin: 0;
 }
 .signup-form {
 	border: 1px solid black;
 	border-radius: 5px;
-	padding: 15px;
+	margin: 15px;
 
 
 }
 #login,
 #register {
+  position: relative;
 	float: left;
+  top: 7em;
+  left: 1%;
+  right: 2%;
 	width: 45%;
 	height: 300px;
-	margin: 15px 2% 20px 2%;
+  border: 1px hidden black;
+  border-radius: 5px;
+	margin: 2%;
 }
 
 .signup-form label,
@@ -51,3 +69,40 @@
 #R-password {
 	width: 40%;
 }
+
+/*from about*/
+.spacerAbout {
+  clear: both;
+  position: relative;
+  top: 4em;
+  left: 27.5%;
+  text-align: center;
+  width: 40%;
+  padding: 1.5%;
+  border: 1px hidden black;
+  border-radius: 5px;
+  margin-bottom: 0.5%;
+}
+.aboutFooter {
+  clear: both;
+  background-color: rgba(255, 255, 255, .9);
+  margin-top: 10%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+footer table {
+  display: inline-table;
+  vertical-align: middle;
+}
+.copyrightAbout {
+  text-align: center;
+  background-color: black;
+  opacity: .8;
+  color: white;
+
+}
+
